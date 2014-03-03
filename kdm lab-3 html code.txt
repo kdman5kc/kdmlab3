@@ -1,0 +1,30 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://www.google.com/jsapi"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+ <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=weather"></script>
+<a href="https://twitter.com/UMKCSU" class="twitter-follow-button" data-show-count="false" data-dnt="true"></a>
+<script src="https://apis.google.com/js/plusone.js"></script>
+<g:plus action="share"></g:plus>
+
+
+<body>
+    
+        
+        
+        
+    <div id="control">
+        <input type="text" name="start" id="start" value="" />
+         
+        <input type="text" name="end" id="end" value="" />
+        
+        <select id="mode">
+            <option value="DRIVING">Driving</option>
+            <option value="WALKING">Walking</option>
+            <option value="BICYCLING">Bicycling</option>
+            <option value="TRANSIT">Transit</option>
+        </select>
+        <input type="submit" id="submit" value="submit" />
+    </div>
+    <div id="directions-panel"></div>
+    <div id="map-canvas" style="width:500px;height:500px"></div>
+    <div id="temp"></div> 
